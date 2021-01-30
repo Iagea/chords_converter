@@ -1,9 +1,6 @@
 def chords_converter():
     lines = []
     l=''
-    print("A continuacion, pega el texto con los acordes que quieras convertir")
-    print("Cuando hayas copiado todo y pulsado ENTER, escribe FIN y pulsa ENTER de nuevo, asi el programa terminara de imprimir los acordes traducidos")
-    print("PEGA AQUI LOS ACORDES ")
     while l != 'FIN':
         l=input(" ")
         lines.append(l)
